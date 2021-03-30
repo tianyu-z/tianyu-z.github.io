@@ -4,7 +4,7 @@ date: 2021-03-27 02:29:55
 ---
 # <span>[Visualizing the Impact of Climate Change](https://mila.quebec/en/ai-society/visualizing-climate-change/)</span>
 
-#### Related Machine Learning Techniques: GANs, Domain Adaptation, Multi-task Learning
+### Related Machine Learning Techniques: GANs, Domain Adaptation, Multi-task Learning
 
 Our project aims to raise awareness and conceptual understanding of climate change by bringing the future closer.  
 
@@ -17,6 +17,6 @@ Bringing together researchers from different areas, we aim to design an educatio
 
 # Public Goods
 
-#### Related Machine Learning Techniques: ABMs, Causal Inference, Reinforcement Learning
+### Related Machine Learning Techniques: ABMs, Causal Inference, Reinforcement Learning
 
 A starting project aiming to tackle the flaw in green house gas emission trading system. More details will be forthcoming...
