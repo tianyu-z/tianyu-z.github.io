@@ -3,14 +3,14 @@ title: Tools
 date: 2021-03-29 19:40:34
 ---
 # Announcement
-Any tools I recommend in this section, whether open source or commercial, are not commercially promoted by me in any way. I created this category to organize a directory of tools I use for my own and others' convenience.
+Any tools I recommend in this section, whether open-source or commercial, are not commercially promoted by me in any way. I created this category to organize a directory of tools I use for my own and others' convenience.
 
 # Writing Tools
-[Madoko](https://www.madoko.net/) An online Markdown editor with realtime compilor. 
-[Rebiber](https://github.com/yuchenlin/rebiber) A script that process bibtex files to transfer arXiv references to formal conference references if available. (Interest-related: I am one of the contributors.)
+[Madoko](https://www.madoko.net/) An online Markdown editor with a real-time compilor.
+[Rebiber](https://github.com/yuchenlin/rebiber) A script that processes BibTeX files to transfer arXiv references to formal conference references if available. (Interest-related: I am one of the contributors.)
 
 # Notification Tools
-[notify.run](https://notify.run/) One can apply for free API keys to receive and push message. It can notify me when a training phase is done even on my mobile phone.
+[notify.run](https://notify.run/) One can apply for free API keys to receive and push messages. It can notify me when a training phase is done even on my mobile phone.
 
 # AL Conference Deadlines
 [AI Conference Deadlines](https://aideadlin.es/) It shows the countdown of the conference deadlines. One can export the targeting conference deadline to email calendars.
