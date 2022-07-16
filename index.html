@@ -1,277 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <!-- Minima -->
-  <!-- Hexo theme created by @adisaktijrs -->
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-
-  
-  <title>Tianyu Zhang&#39;s Personal Website</title>
-  
-  <link rel="canonical" href="http://example.com/">
-  
-  <meta name="description" content="">
-  
-  
-  <meta name="keywords" content="Machine Learning">
-  
-  <meta name="author" content="Tianyu Zhang">
-  
-  <meta property="og:image" content="http://example.com/images/thumbnail.jpg">
-  
-  <meta property="og:site_name" content="Tianyu Zhang&#39;s Personal Website" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Tianyu Zhang&#39;s Personal Website" />
-  
-  <meta property="og:description" content="">
-  
-  <meta property="og:url" content="http://example.com/" />
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tianyu Zhang&#39;s Personal Website">
-  
-  <meta name="twitter:description" content="">
-  
-  
-  <meta name="twitter:image" content="http://example.com/images/thumbnail.jpg">
-  
-  <meta name="twitter:url" content="http://example.com/" />
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Preload fonts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="preload" href="../fonts/dm-serif-display-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="../fonts/inter-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-<link rel="stylesheet" href="/css/normalize.css">
-
-  
-<link rel="stylesheet" href="/css/skeleton.css">
-
-  
-<link rel="stylesheet" href="/css/custom.css">
-
-  
-<link rel="stylesheet" href="/css/prism-dark.css">
-
-  
-<link rel="stylesheet" href="/css/prism-line-numbers.css">
-
-  <!-- User css -->
-  
-  
-<link rel="stylesheet" href="/css/user.css">
-
-  
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
-
-  <!-- Custom Theme Color Style
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <style>
-  a:not(.icon) {
-    text-decoration-color: #0FA0CE;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 50%,
-      #0FA0CE 50%
-    );
-  }
-  blockquote {
-    border-left: 8px solid #0FA0CE;
-  }
-  .nanobar .bar {
-    background: #0FA0CE;
-  }
-  .button.button-primary:hover,
-  button.button-primary:hover,
-  input[type="submit"].button-primary:hover,
-  input[type="reset"].button-primary:hover,
-  input[type="button"].button-primary:hover,
-  .button.button-primary:focus,
-  button.button-primary:focus,
-  input[type="submit"].button-primary:focus,
-  input[type="reset"].button-primary:focus,
-  input[type="button"].button-primary:focus {
-    background-color: #0FA0CE;
-    border-color: #0FA0CE;
-  }
-  input[type="email"]:focus,
-  input[type="number"]:focus,
-  input[type="search"]:focus,
-  input[type="text"]:focus,
-  input[type="tel"]:focus,
-  input[type="url"]:focus,
-  input[type="password"]:focus,
-  textarea:focus,
-  select:focus {
-    border: 1px solid #0FA0CE;
-  }
-</style>
-
-  <!-- Google Analytics (With Privacy Settings On)
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-
-<meta name="generator" content="Hexo 5.3.0"></head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div>
-
-        <div class="row">
-  <div class="two columns" style="max-width: 50px">
-    <h1 class="mt-2 mode">
-      <div onclick=setDarkMode(true) id="darkBtn">🌑</div>
-      <div onclick=setDarkMode(false) id="lightBtn" class=hidden>☀️</div>
-      <script >
-        if (localStorage.getItem('preferredTheme') == 'dark') {
-          setDarkMode(true)
-        }
-        function setDarkMode(isDark) {
-          var darkBtn = document.getElementById('darkBtn')
-          var lightBtn = document.getElementById('lightBtn')
-          if (isDark) {
-            lightBtn.style.display = "block"
-            darkBtn.style.display = "none"
-            localStorage.setItem('preferredTheme', 'dark');
-          } else {
-            lightBtn.style.display = "none"
-            darkBtn.style.display = "block"
-            localStorage.removeItem('preferredTheme');
-          }
-          document.body.classList.toggle("darkmode");
-        }
-      </script>
-    </h1>
-  </div>
-
-  <div class="six columns ml-1">
-    <h1 class="mt-2">
-      Tianyu Zhang
-    </h1>
-  </div>
-
-  <div class="twelve columns">
-    <div class="row">
-      <div class="nine columns left">
-        <a href="/">Home</a>
-        
-          
-          <a href="/Works" class="ml">Works</a>
-          
-        
-          
-          <a href="/Tools" class="ml">Tools</a>
-          
-        
-          
-          <a href="/About" class="ml">About</a>
-          
-        
-        
-          
-            <a href="mailto:zhangtianyu.pro@gmail.com" target="_blank" class="ml">Email</a>
-          
-        
-      </div>
-    </div>
-    <hr style="margin-bottom: 2.6rem">
-  </div>
-</div>
-
-        <div class="trans">
-          <div class="row">
-  <div class="column">
-    <!-- Main information, edit it on theme/_config.yml -->
-    <h2 class="mb-2"></h2>
-    <p>Machine Learning Enthusiast</p>
-    <p>This is Tianyu Zhang, an incoming PhD student in UdeM (University de Montréal) / MILA (Quebec Institute for Learning Algorithms) supervised by Prof. Yoshua Bengio. My research interests include AI for Climate Change, Algorithmic Game Theory, Agent Based Model Simulator, Self-supervised Learning, Domain Adaptation, etc.</p>
-  </div>
-</div>
-
-<h3>Recent Posts</h3>
-
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Mar 27, 2021</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/2021/03/27/ToVisitors/" >
-      
-        To Visitors
-      
-    </a>
-  </div>
-</div>
-
-
-<h4> <a href="/archives">All Posts</a></h4>
-
-          <div class="row mt-2">
-  
-    <div class="eight columns">
-      <p id="madewith">Powered by Minima themes from
-        <a class="footer-link icon" href="https://hexo.io" target="_blank" style="text-decoration: none;" rel="noreferrer" aria-label="Hexo.io">
-        <svg class="hexo svg-hov" width="14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Hexo.js</title><path d="M12 .007L1.57 6.056V18.05L12 23.995l10.43-6.049V5.952L12 .007zm4.798 17.105l-.939.521-.939-.521V12.94H9.08v4.172l-.94.521-.938-.521V6.89l.939-.521.939.521v4.172h5.84V6.89l.94-.521.938.521v10.222z"/></svg>
-        </a>
-        
-    </div>
-
-    <!-- Sepcial thanks to https://simpleicons.org/ for the icons -->
-    <div class="four columns mb-3 posisi" >
-      
-      <a class="ml-0 footer-link icon" href="https://github.com/tianyu-z" target="_blank" style="text-decoration: none" rel="noreferrer" aria-label="GitHub">
-        <svg class="github svg-hov" width="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-      </a>
-      
-
-      
-
-      
-
-      
-
-      
-
-    </div>
-  
-</div>
-
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.5.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><meta name=author content="Tianyu Zhang"><meta name=description content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder."><link rel=alternate hreflang=en-us href="index.html"><meta name=theme-color content="#1565c0"><link rel=stylesheet href="css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload='this.media="all"' disabled><link rel=stylesheet href="css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css"><script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
+<link rel=alternate href="index.xml" type=application/rss+xml title="Tianyu Zhang's WebPage"><link rel=manifest href="manifest.webmanifest"><link rel=icon type=image/png href="media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png"><link rel=apple-touch-icon type=image/png href="media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png"><link rel=canonical href="index.html"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@wowchemy"><meta property="twitter:creator" content="@wowchemy"><meta property="og:site_name" content="Tianyu Zhang's WebPage"><meta property="og:url" content="https://tyz.netlify.app/"><meta property="og:title" content="Tianyu Zhang's WebPage"><meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder."><meta property="og:image" content="https://tyz.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="twitter:image" content="https://tyz.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="og:updated_time" content="2030-06-01T13:00:00+00:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://tyz.netlify.app?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://tyz.netlify.app"}</script><title>Tianyu Zhang's WebPage</title></head><body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class=page-wrapper><script src="js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href="index.html#" aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><header class=header--fixed><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href="index.html">Tianyu Zhang's WebPage</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href="index.html">Tianyu Zhang's WebPage</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href="index.html#about" data-target=#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href="index.html#projects" data-target=#projects><span>Projects</span></a></li><li class=nav-item><a class=nav-link href="index.html#publications" data-target=#publications><span>Publications</span></a></li><li class=nav-item><a class=nav-link href="index.html#contact" data-target=#contact><span>Contact</span></a></li><li class=nav-item><a class=nav-link href="uploads/Academic_CV.pdf"><span>CV</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href="index.html#" aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href="index.html#" class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href="index.html#" class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href="index.html#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href="index.html#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><span class="js-widget-page d-none"></span><section id=about class="home-section wg-about"><div class=home-section-bg></div><div class=container><div class=row><div class="col-12 col-lg-4"><div id=profile><img class="avatar avatar-circle" width=270 height=270 src="authors/admin/avatar_hu95d6bc5cb3661c6b7722816e7aa24caa_19197_270x270_fill_q75_lanczos_center.jpg" alt="Tianyu Zhang"><div class=portrait-title><h2>Tianyu Zhang</h2><h3>Ph.D. Student in Machine Learning</h3><h3><a href=https://mila.quebec/en target=_blank rel=noopener><span>MILA - Québec Institute for Artificial Intelligence</span></a></h3></div><ul class=network-icon aria-hidden=true><li><a href=mailto:tianyu.zhang@mila.quebec aria-label=envelope><i class="fas fa-envelope big-icon"></i></a></li><li><a href="https://scholar.google.com/citations?user=jZUQSnYAAAAJ" target=_blank rel=noopener aria-label=google-scholar><i class="ai ai-google-scholar big-icon"></i></a></li><li><a href=https://github.com/tianyu-z target=_blank rel=noopener aria-label=github><i class="fab fa-github big-icon"></i></a></li><li><a href=https://arxiv.org/a/zhang_t_6.html target=_blank rel=noopener aria-label=arxiv><i class="ai ai-arxiv big-icon"></i></a></li><li><a href=https://orcid.org/0000-0002-4410-1343 target=_blank rel=noopener aria-label=orcid><i class="ai ai-orcid big-icon"></i></a></li><li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5209244" target=_blank rel=noopener aria-label=ssrn><i class="ai ai-ssrn big-icon"></i></a></li><li><a href=https://twitter.com/tianyu_zh target=_blank rel=noopener aria-label=twitter><i class="fab fa-twitter big-icon"></i></a></li><li><a href=https://www.linkedin.com/in/tianyu-zhang-ai target=_blank rel=noopener aria-label=linkedin><i class="fab fa-linkedin big-icon"></i></a></li><li><a href="uploads/Academic_CV.pdf" aria-label=cv><i class="ai ai-cv big-icon"></i></a></li></ul></div></div><div class="col-12 col-lg-8"><h1>Biography</h1><div class=article-style><p>Tianyu Zhang is a Ph.D. student supervised by Prof. Yoshua Bengio. His research interests include Algorithmic Game Theory, Agent-based Model Simulator, AI for Climate Change, Multi-agent Reinforcement Learning, Self-supervised Learning, Domain Adaptation, etc. Previously, he worked as a quantitative researcher in financial engineering. Please feel free to contact him if you are interested in his work.</p><p><i class="fas fa-download pr-1 fa-fw"></i> Download my <a href="uploads/Academic_CV.pdf" target=_blank>CV</a>.</p></div><div class=row><div class=col-md-7><div class=section-subheading>Education</div><ul class="ul-edu fa-ul mb-0"><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>Ph.D Student in Machine Learning, 09/2021 - Present</p><p class=institution>MILA - Québec Institute for Artificial Intelligence</p></div></li><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>M.Sc. in Machine Learning, 09/2020 - 06/2021</p><p class=institution>MILA - Québec Institute for Artificial Intelligence</p></div></li><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>M.S. in Applied Mathematics, 09/2018 - 01/2020</p><p class=institution>Courant Institute at New York University</p></div></li><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>B.S. in Mathematics and B.Econ. in Finance, 09/2014 - 06/2018</p><p class=institution>Wuhan University</p></div></li></ul></div></div></div></div></div></section><section id=projects class="home-section wg-portfolio"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Projects</h1></div><div class="col-12 col-lg-8"><span class="d-none default-project-filter">*</span><div class=project-toolbar><div class=project-filters><div class=btn-toolbar><div class="btn-group flex-wrap"><a href="index.html#" data-filter=* class="btn btn-primary btn-lg active">All</a>
+<a href="index.html#" data-filter=.js-id-Deep-Learning class="btn btn-primary btn-lg">Deep Learning</a>
+<a href="index.html#" data-filter=.js-id-Game-Theory class="btn btn-primary btn-lg">Game Theory</a>
+<a href="index.html#" data-filter=.js-id-Market-Mechanism class="btn btn-primary btn-lg">Market Mechanism</a>
+<a href="index.html#" data-filter=.js-id-Economics class="btn btn-primary btn-lg">Economics</a></div></div></div></div><div class="isotope projects-container row js-layout-row"><div class="col-12 isotope-item js-id-Market-Mechanism js-id-Economics"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href="project/precap/index.html">A Market-based Approach for Climate Finance and Risk Assessment</a></div><a href="project/precap/index.html" class=summary-link><div class=article-style>Price social cost of carbon retrospectively</div></a><div class="stream-meta article-metadata"></div></div><div class=ml-3></div></div></div><div class="col-12 isotope-item js-id-Deep-Learning js-id-Game-Theory js-id-Market-Mechanism js-id-Economics"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href="project/climatecoop/index.html">AI for Global Climate Cooperation</a></div><a href="project/climatecoop/index.html" class=summary-link><div class=article-style>Design negotiation protocol for climate club</div></a><div class="stream-meta article-metadata"></div></div><div class=ml-3></div></div></div><div class="col-12 isotope-item js-id-Deep-Learning"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href="project/audioclip/index.html">Audio CLIP</a></div><a href="project/audioclip/index.html" class=summary-link><div class=article-style>Train a CLIP-like large model for audio-image-text domains and use it to guide DALL-E 2 style generative models.</div></a><div class="stream-meta article-metadata"></div></div><div class=ml-3></div></div></div><div class="col-12 isotope-item js-id-Deep-Learning"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href="project/dni/index.html">Deep Nerual Interface</a></div><a href="project/dni/index.html" class=summary-link><div class=article-style>Decouple blocks to unlock forward and backward lockings.</div></a><div class="stream-meta article-metadata"></div></div><div class=ml-3></div></div></div><div class="col-12 isotope-item js-id-Deep-Learning js-id-Game-Theory"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href="project/egrid/index.html">MARL for Renewable Integration in the Electric Power Grid</a></div><a href="project/egrid/index.html" class=summary-link><div class=article-style>Motivate a collaborative multi-agent reinforcement learning approach to meet the algorithmic requirements for providing real-time power balancing with demand response.</div></a><div class="stream-meta article-metadata"></div></div><div class=ml-3></div></div></div><div class="col-12 isotope-item js-id-Deep-Learning js-id-Game-Theory"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href="project/agentcooperation/index.html">Multi Agent Cooperation in Game Theory</a></div><a href="project/agentcooperation/index.html" class=summary-link><div class=article-style>Scalable solutions to a cooperate-cooperate equilibrium</div></a><div class="stream-meta article-metadata"></div></div><div class=ml-3></div></div></div></div></div></div></div></section><section id=publications class="home-section wg-pages"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Recent Publications</h1></div><div class="col-12 col-lg-8"><div class="alert alert-note"><div>Quickly discover relevant content by <a href="publication/index.html">filtering publications</a>.</div></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span>Moksh Jain</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Emmanuel Bengio</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Alex Hernandez-Garcia</span>, <span>Jarrid Rector-Brooks</span>, <span>Bonaventure FP Dossou</span>, <span>Chanakya Ajit Ekbote</span>, <span>Jie Fu</span>, <span class=author-highlighted>Tianyu Zhang</span>, <span>Michael Kilgour</span>, <span>Dinghuai Zhang</span>, <span>Lena Simine</span>, <span>Payel Das</span>, <span>Yoshua Bengio</span></span>
+(2022).
+<a href="publication/biological-sequence-design-with-gflownets/index.html">Biological Sequence Design with GFlowNets</a>.
+In <em>ICML</em>.<p><a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/biological-sequence-design-with-gflownets/cite.bib>Cite</a></p></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span>Yoshua Bengio</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Prateek Gupta</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Dylan Radovic</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Maarten Scholl</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Andrew Williams</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Christian Schroeder de Witt</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span class=author-highlighted>Tianyu Zhang</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Yang Zhang</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i></span>
+(2022).
+<a href="publication/precap/index.html">(Private)-Retroactive Carbon Pricing [(P)ReCaP]: A Market-based Approach for Climate Finance and Risk Assessment</a>.
+In <em>arXiv.org</em>.<p><a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/precap/cite.bib>Cite</a></p></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span>Vincent Mai</span>, <span class=author-highlighted>Tianyu Zhang</span>, <span>Antoine Lesage-Landry</span></span>
+(2021).
+<a href="publication/egrid/index.html">Multi-agent reinforcement learning for renewable integration in the electric power grid</a>.
+In <em>NeurIPS 2021 CCAI workshop</em>.<p><a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/egrid/cite.bib>Cite</a></p></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span>Victor Schmidt</span>, <span>Alexandra Luccioni</span>, <span>Melisande Teng</span>, <span class=author-highlighted>Tianyu Zhang</span>, <span>Alexia Reynaud</span>, <span>Sunand Raghupathi</span>, <span>Gautier Cosne</span>, <span>Adrien Juraver</span>, <span>Vahe Vardanyan</span>, <span>Alex Hernandez-Garcia</span>, <span>Yoshua Bengio</span></span>
+(2021).
+<a href="publication/climategan-raising-climate-change-awareness-by-generating-images-of-floods/index.html">ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods</a>.
+In <em>ICLR</em>.<p><a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/climategan-raising-climate-change-awareness-by-generating-images-of-floods/cite.bib>Cite</a></p></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span>Liang Mao</span>, <span class=author-highlighted>Tianyu Zhang</span></span>
+(2017).
+<a href="publication/a-minimal-sufficient-set-of-procedures-in-a-bargaining-model/index.html">A minimal sufficient set of procedures in a bargaining model</a>.
+In <em>Economics Letters</em>.<p><a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/a-minimal-sufficient-set-of-procedures-in-a-bargaining-model/cite.bib>Cite</a></p></div></div></div></div></section><section id=contact class="home-section wg-contact"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Contact</h1></div><div class="col-12 col-lg-8"><ul class=fa-ul><li><i class="fa-li fas fa-envelope fa-2x" aria-hidden=true></i>
+<span id=person-email><a href=mailto:tianyu.zhang[A.T.]mila.quebec>tianyu.zhang[A.T.]mila.quebec</a></span></li><li><i class="fa-li fas fa-phone fa-2x" aria-hidden=true></i>
+<span id=person-telephone><a href=tel:Available%20upon%20request>Available upon request</a></span></li><li><i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
+<span id=person-address>6666 St-Urbain, 200, Montreal, QC H2S 3H1</span></li><li><i class="fa-li fas fa-calendar-check fa-2x" aria-hidden=true></i>
+<a href=https://calendly.com/tianyuzhang target=_blank rel=noopener>Book an appointment</a></li></ul></div></div></div></section></div><div class=page-footer><div class=container><footer class=site-footer><p class="powered-by copyright-license-text">© 2022 Me. This work is licensed under <a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank>CC BY NC ND 4.0</a></p><p class="powered-by footer-license-icons"><a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons"><i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-nc fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-nd fa-2x" aria-hidden=true></i></a></p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><script src="js/vendor-bundle.min.fab8b449b814cc9f95b22fcf2e45f05b.js"></script>
+<script src=https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="https://tyz.netlify.app/{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
         </div>
-      </div>
-
-    </div>
-
-  </div>
-  <script src="/js/nanobar.min.js"></script>
-  <script>
-    var options = {
-      classname: 'nanobar',
-      id: 'myNanobar'
-    };
-    var nanobar = new Nanobar(options);
-    nanobar.go(30);
-    nanobar.go(76);
-    nanobar.go(100);
-  </script>
-
-</body>
-
-</html>
+      </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":false}</script><script src="en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href="index.html#" target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href="index.html#" target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src="js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type=module></script></body></html>

@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://tyz.netlify.app/sitemap.xml
