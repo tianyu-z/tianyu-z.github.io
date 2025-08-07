@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tianyu Zhang's WebPage</title><link>https://tyz.netlify.app/</link><atom:link href="https://tyz.netlify.app/index.xml" rel="self" type="application/rss+xml"/><description>Tianyu Zhang's WebPage</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://tyz.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Tianyu Zhang's WebPage</title><link>https://tyz.netlify.app/</link></image><item><title>Example Talk</title><link>https://tyz.netlify.app/event_/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://tyz.netlify.app/event_/example/</guid><description>&lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tianyu Zhang's WebPage</title><link>https://ai.t-zhang.com/</link><atom:link href="https://ai.t-zhang.com/index.xml" rel="self" type="application/rss+xml"/><description>Tianyu Zhang's WebPage</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://ai.t-zhang.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Tianyu Zhang's WebPage</title><link>https://ai.t-zhang.com/</link></image><item><title>Example Talk</title><link>https://ai.t-zhang.com/event_/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/event_/example/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -9,7 +9,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation</title><link>https://tyz.netlify.app/publication/clap/</link><pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/clap/</guid><description>&lt;div class="alert alert-note">
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>STRICT: Stress Test of Rendering Images Containing Text</title><link>https://ai.t-zhang.com/publication/strict/</link><pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/strict/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -19,7 +19,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://arxiv.org/abs/2211.06687" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Multi-Agent Reinforcement Learning for Fast-Timescale Demand Response of Residential Loads</title><link>https://tyz.netlify.app/publication/egrid2/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/egrid2/</guid><description>&lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/812e3f4ff9877b318689a22d81172cf3-Abstract-Conference.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Advantage Alignment Algorithms</title><link>https://ai.t-zhang.com/publication/aaa/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/aaa/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -29,7 +29,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://arxiv.org/abs/2301.02593" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Biological Sequence Design with GFlowNets</title><link>https://tyz.netlify.app/publication/biological-sequence-design-with-gflownets/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/biological-sequence-design-with-gflownets/</guid><description>&lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/5185aa776fd64ae3b4c6dae1af1066b1-Abstract-Conference.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>MuPT: A Generative Symbolic Music Pretrained Transformer</title><link>https://ai.t-zhang.com/publication/mupt/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/mupt/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -39,7 +39,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://proceedings.mlr.press/v162/jain22a.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>(Private)-Retroactive Carbon Pricing [(P)ReCaP]: A Market-based Approach for Climate Finance and Risk Assessment</title><link>https://tyz.netlify.app/publication/precap/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/precap/</guid><description>&lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/73f6f8897896f7bda86ea7d1ebc1dc4f-Abstract-Conference.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation</title><link>https://ai.t-zhang.com/publication/map/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/map/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -49,7 +49,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://arxiv.org/abs/2205.00666" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Multi-agent reinforcement learning for renewable integration in the electric power grid</title><link>https://tyz.netlify.app/publication/egrid/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/egrid/</guid><description>&lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/a3724221b623bf1966e92cd266ac6177-Abstract-Conference.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>VCR: A Task for Pixel-Level Complex Reasoning in Vision Language Models via Restoring Occluded Text</title><link>https://ai.t-zhang.com/publication/vcr/</link><pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/vcr/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -59,7 +59,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://www.climatechange.ai/papers/neurips2021/71" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods</title><link>https://tyz.netlify.app/publication/climategan-raising-climate-change-awareness-by-generating-images-of-floods/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/climategan-raising-climate-change-awareness-by-generating-images-of-floods/</guid><description>&lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/812e3f4ff9877b318689a22d81172cf3-Abstract-Conference.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>BigDocs: An Open and Permissively-Licensed Dataset for Training Multimodal Models on Document and Code Tasks</title><link>https://ai.t-zhang.com/publication/bigdocs/</link><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/bigdocs/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -69,7 +69,77 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://openreview.net/forum?id=EZNOb_uNpJk" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://tyz.netlify.app/post_/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/post_/getting-started/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/c4659191ae1e89faa09864c23fa91f31-Abstract-Conference.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Expected flow networks in stochastic environments and two-player zero-sum games</title><link>https://ai.t-zhang.com/publication/expectedflow/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/expectedflow/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://openreview.net/forum?id=uH0FGECSEI" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation</title><link>https://ai.t-zhang.com/publication/clap/</link><pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/clap/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://arxiv.org/abs/2211.06687" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Multi-Agent Reinforcement Learning for Fast-Timescale Demand Response of Residential Loads</title><link>https://ai.t-zhang.com/publication/egrid2/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/egrid2/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://arxiv.org/abs/2301.02593" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Biological Sequence Design with GFlowNets</title><link>https://ai.t-zhang.com/publication/biological-sequence-design-with-gflownets/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/biological-sequence-design-with-gflownets/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://proceedings.mlr.press/v162/jain22a.html" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>(Private)-Retroactive Carbon Pricing [(P)ReCaP]: A Market-based Approach for Climate Finance and Risk Assessment</title><link>https://ai.t-zhang.com/publication/precap/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/precap/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://arxiv.org/abs/2205.00666" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Multi-agent reinforcement learning for renewable integration in the electric power grid</title><link>https://ai.t-zhang.com/publication/egrid/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/egrid/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://www.climatechange.ai/papers/neurips2021/71" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods</title><link>https://ai.t-zhang.com/publication/climategan-raising-climate-change-awareness-by-generating-images-of-floods/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/climategan-raising-climate-change-awareness-by-generating-images-of-floods/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://openreview.net/forum?id=EZNOb_uNpJk" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://ai.t-zhang.com/post_/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/post_/getting-started/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;ol>
 &lt;li>The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li>
 &lt;li>The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong>no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong> and having &lt;strong>flexibility to later add even deeper personalization with HTML and CSS&lt;/strong>&lt;/li>
@@ -123,7 +193,7 @@ The template is mobile first with a responsive design to ensure that your site l
 &lt;p>&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener">Choose a stunning &lt;strong>theme&lt;/strong> and &lt;strong>font&lt;/strong>&lt;/a> for your site. Themes are fully customizable.&lt;/p>
 &lt;h2 id="license">License&lt;/h2>
 &lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Slides</title><link>https://tyz.netlify.app/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Slides</title><link>https://ai.t-zhang.com/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
 &lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="features">Features&lt;/h2>
@@ -234,7 +304,7 @@ data-background-image="/media/boards.jpg"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
 &lt;h1 id="questions">Questions?&lt;/h1>
 &lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>A minimal sufficient set of procedures in a bargaining model</title><link>https://tyz.netlify.app/publication/a-minimal-sufficient-set-of-procedures-in-a-bargaining-model/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/publication/a-minimal-sufficient-set-of-procedures-in-a-bargaining-model/</guid><description>&lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>A minimal sufficient set of procedures in a bargaining model</title><link>https://ai.t-zhang.com/publication/a-minimal-sufficient-set-of-procedures-in-a-bargaining-model/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/a-minimal-sufficient-set-of-procedures-in-a-bargaining-model/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -244,9 +314,101 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S0165176517300162" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title/><link>https://tyz.netlify.app/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/admin/config.yml</guid><description/></item><item><title>A Market-based Approach for Climate Finance and Risk Assessment</title><link>https://tyz.netlify.app/project/precap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/project/precap/</guid><description>&lt;p>Insufficient Social Cost of Carbon (SCC) estimation methods and short-term decision-making horizons have hindered the ability of carbon emitters to properly correct for the negative externalities of climate change, as well as the capacity of nations to balance economic and climate policy. To overcome these limitations, we introduce Retrospective Social Cost of Carbon Updating (ReSCCU), a novel mechanism that corrects for these limitations as empirically measured evidence is collected. To implement ReSCCU in the context of carbon taxation, we propose Retroactive Carbon Pricing (ReCaP), a market mechanism in which polluters offload the payment of ReSCCU adjustments to insurers. To alleviate systematic risks and minimize government involvement, we introduce the Private ReCaP (PReCaP) prediction market, which could see real-world implementation based on the engagement of a few high net-worth individuals or independent institutions.&lt;/p>
-&lt;p>Please check &lt;a href="https://arxiv.org/abs/2205.00666" target="_blank" rel="noopener">here&lt;/a> for our priliminary thoughts.&lt;/p></description></item><item><title>CLAP</title><link>https://tyz.netlify.app/project/audioclip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/project/audioclip/</guid><description>&lt;p>Contrastive learning has shown remarkable success in the field of multimodal representation learning. In this paper, we propose a pipeline of contrastive language-audio pretraining to develop an audio representation by combining audio data with natural language descriptions. To accomplish this target, we first release LAION-Audio-630K, a large collection of 633,526 audio-text pairs from different data sources. Second, we construct a contrastive language-audio pretraining model by considering different audio encoders and text encoders. We incorporate the feature fusion mechanism and keyword-to-caption augmentation into the model design to further enable the model to process audio inputs of variable lengths and enhance the performance. Third, we perform comprehensive experiments to evaluate our model across three tasks: text-to-audio retrieval, zero-shot audio classification, and supervised audio classification. The results demonstrate that our model achieves superior performance in text-to-audio retrieval task. In audio classification tasks, the model achieves state-of-the-art performance in the zero-shot setting and is able to obtain performance comparable to models&amp;rsquo; results in the non-zero-shot setting. LAION-Audio-630K and the proposed model are both available to the public.&lt;/p></description></item><item><title>MARL for Renewable Integration in the Electric Power Grid</title><link>https://tyz.netlify.app/project/egrid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/project/egrid/</guid><description>&lt;p>As part of the fight against climate change, the electric power system is transitioning from fuel-burning generators to renewable sources of power like wind and solar. To allow for the grid to rely heavily on renewables, important operational changes must be done. For example, novel approaches for frequency regulation, ie, for balancing in real-time demand and generation, are required to ensure the stability of a renewable electric system. Demand response programs in which loads adjust in part their power consumption for the grid’s benefit, can be used to provide frequency regulation. In this proposal, we present and motivate a collaborative multi-agent reinforcement learning approach to meet the algorithmic requirements for providing real-time power balancing with demand response.&lt;/p>
-&lt;p>Please check here for &lt;a href="https://www.climatechange.ai/papers/neurips2021/71" target="_blank" rel="noopener">the full proposal&lt;/a>.&lt;/p></description></item><item><title>Multi Agent Cooperation in Game Theory</title><link>https://tyz.netlify.app/project/agentcooperation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/project/agentcooperation/</guid><description>&lt;p>Developed based on &lt;a href="https://arxiv.org/abs/1709.04326" target="_blank" rel="noopener">LOLA&lt;/a> and &lt;a href="https://arxiv.org/abs/2103.04931" target="_blank" rel="noopener">MCTS&lt;/a>, the goal is to find a mechanism for the so that the agents can converge to a cooperate-cooperate equilibrium in game such as the coin game or prisoner&amp;rsquo;s dilemma game. We aim to find a scalable solution.&lt;/p></description></item><item><title>RICE-N | AI for Global Climate Cooperation</title><link>https://tyz.netlify.app/project/climatecoop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tyz.netlify.app/project/climatecoop/</guid><description>&lt;p>RICE-N simulator wins the &lt;a href="https://www.events.netexplo.com/forum-innovation-2023/content/rice-n" target="_blank" rel="noopener">Netexplo Innovation Award in 2023&lt;/a>.
+&lt;p>&lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S0165176517300162" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title/><link>https://ai.t-zhang.com/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/admin/config.yml</guid><description/></item><item><title/><link>https://ai.t-zhang.com/publication/alignvlm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/publication/alignvlm/</guid><description>&lt;hr>
+&lt;p>title: &amp;lsquo;AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Understanding&amp;rsquo;&lt;/p>
+&lt;h1 id="authors">Authors&lt;/h1>
+&lt;h1 id="if-you-created-a-profile-for-a-user-eg-the-default-admin-user-write-the-username-folder-name-here">If you created a profile for a user (e.g. the default &lt;code>admin&lt;/code> user), write the username (folder name) here&lt;/h1>
+&lt;h1 id="and-it-will-be-replaced-with-their-full-name-and-linked-to-their-profile">and it will be replaced with their full name and linked to their profile.&lt;/h1>
+&lt;p>authors:&lt;/p>
+&lt;ul>
+&lt;li>Ahmed Masry&lt;/li>
+&lt;li>Juan A. Rodriguez&lt;/li>
+&lt;li>admin&lt;/li>
+&lt;li>Suyuchen Wang&lt;/li>
+&lt;li>Chao Wang&lt;/li>
+&lt;li>Aarash Feizi&lt;/li>
+&lt;li>Akshay Kalkunte Suresh&lt;/li>
+&lt;li>Abhay Puri&lt;/li>
+&lt;li>Xiangru Jian&lt;/li>
+&lt;li>Pierre-André Noël&lt;/li>
+&lt;li>Sathwik Tejaswi Madhusudhan&lt;/li>
+&lt;li>Marco Pedersoli&lt;/li>
+&lt;li>Bang Liu&lt;/li>
+&lt;li>Nicolas Chapados&lt;/li>
+&lt;li>admin&lt;/li>
+&lt;li>Enamul Hoque&lt;/li>
+&lt;li>Christopher Pal&lt;/li>
+&lt;li>Issam H. Laradji&lt;/li>
+&lt;li>David Vazquez&lt;/li>
+&lt;li>Perouz Taslakian&lt;/li>
+&lt;li>Spandana Gella&lt;/li>
+&lt;li>Sai Rajeswar&lt;/li>
+&lt;/ul>
+&lt;h1 id="author-notes-optional">Author notes (optional)&lt;/h1>
+&lt;h1 id="author_notes-">author_notes: []&lt;/h1>
+&lt;p>date: &amp;lsquo;2025-02-03T00:00:00Z&amp;rsquo;
+doi: ''&lt;/p>
+&lt;h1 id="schedule-page-publish-date-not-publications-date">Schedule page publish date (NOT publication&amp;rsquo;s date).&lt;/h1>
+&lt;p>publishDate: &amp;lsquo;2022-06-28T00:00:00Z&amp;rsquo;&lt;/p>
+&lt;h1 id="publication-type">Publication type.&lt;/h1>
+&lt;h1 id="legend-0--uncategorized-1--conference-paper-2--journal-article">Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;&lt;/h1>
+&lt;h1 id="3--preprint--working-paper-4--report-5--book-6--book-section">3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;&lt;/h1>
+&lt;h1 id="7--thesis-8--patent">7 = Thesis; 8 = Patent&lt;/h1>
+&lt;p>publication_types: [&amp;lsquo;3&amp;rsquo;]&lt;/p>
+&lt;h1 id="publication-name-and-optional-abbreviated-publication-name">Publication name and optional abbreviated publication name.&lt;/h1>
+&lt;p>publication: &amp;lsquo;arXiv&amp;rsquo;
+publication_short: &amp;lsquo;arXiv&amp;rsquo;&lt;/p>
+&lt;p>abstract: Aligning visual features with language embeddings is a key challenge in vision-language models (VLMs). The performance of such models hinges on having a good connector that maps visual features generated by a vision encoder to a shared embedding space with the LLM while preserving semantic similarity. Existing connectors, such as multilayer perceptrons (MLPs), often produce out-of-distribution or noisy inputs, leading to misalignment between the modalities. In this work, we propose a novel vision-text alignment method, AlignVLM, that maps visual features to a weighted average of LLM text embeddings. Our approach leverages the linguistic priors encoded by the LLM to ensure that visual features are mapped to regions of the space that the LLM can effectively interpret. AlignVLM is particularly effective for document understanding tasks, where scanned document images must be accurately mapped to their textual content. Our extensive experiments show that AlignVLM achieves state-of-the-art performance compared to prior alignment methods. We provide further analysis demonstrating improved vision-text feature alignment and robustness to noise.&lt;/p>
+&lt;h1 id="-summary-an-optional-shortened-abstract"># Summary. An optional shortened abstract.&lt;/h1>
+&lt;h1 id="summary-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-duis-posuere-tellus-ac-convallis-placerat-proin-tincidunt-magna-sed-ex-sollicitudin-condimentum">summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.&lt;/h1>
+&lt;p>tags: [Multimodal, Vision-Language Models, Document Understanding, Alignment, Deep Learning]&lt;/p>
+&lt;h1 id="display-this-page-in-the-featured-widget">Display this page in the Featured widget?&lt;/h1>
+&lt;p>featured: true&lt;/p>
+&lt;h1 id="custom-links-uncomment-lines-below">Custom links (uncomment lines below)&lt;/h1>
+&lt;h1 id="links">links:&lt;/h1>
+&lt;h1 id="--name-custom-link">- name: Custom Link&lt;/h1>
+&lt;h1 id="url-httpexampleorg">url: &lt;a href="http://example.org" target="_blank" rel="noopener">http://example.org&lt;/a>&lt;/h1>
+&lt;p>url_pdf: &amp;rsquo;'
+url_code: &amp;rsquo;'
+url_dataset: &amp;rsquo;'
+url_poster: &amp;rsquo;'
+url_project: &amp;rsquo;'
+url_slides: &amp;rsquo;'
+url_source: &amp;rsquo;'
+url_video: ''&lt;/p>
+&lt;h1 id="featured-image">Featured image&lt;/h1>
+&lt;h1 id="to-use-add-an-image-named-featuredjpgpng-to-your-pages-folder">To use, add an image named &lt;code>featured.jpg/png&lt;/code> to your page&amp;rsquo;s folder.&lt;/h1>
+&lt;h1 id="image">image:&lt;/h1>
+&lt;h1 id="caption-image-credit-unsplashhttpsunsplashcomphotosplcdaamflte">caption: &amp;lsquo;Image credit: &lt;a href="https://unsplash.com/photos/pLCdAaMFLTE" target="_blank" rel="noopener">&lt;strong>Unsplash&lt;/strong>&lt;/a>&amp;rsquo;&lt;/h1>
+&lt;h1 id="focal_point-">focal_point: ''&lt;/h1>
+&lt;h1 id="preview_only-false">preview_only: false&lt;/h1>
+&lt;h1 id="associated-projects-optional">Associated Projects (optional).&lt;/h1>
+&lt;h1 id="associate-this-publication-with-one-or-more-of-your-projects">Associate this publication with one or more of your projects.&lt;/h1>
+&lt;h1 id="simply-enter-your-projects-folder-or-file-name-without-extension">Simply enter your project&amp;rsquo;s folder or file name without extension.&lt;/h1>
+&lt;h1 id="eg-internal-project-references-contentprojectinternal-projectindexmd">E.g. &lt;code>internal-project&lt;/code> references &lt;code>content/project/internal-project/index.md&lt;/code>.&lt;/h1>
+&lt;h1 id="otherwise-set-projects-">Otherwise, set &lt;code>projects: []&lt;/code>.&lt;/h1>
+&lt;h1 id="projects">projects:&lt;/h1>
+&lt;h1 id="--dni">- DNI&lt;/h1>
+&lt;h1 id="slides-optional">Slides (optional).&lt;/h1>
+&lt;h1 id="associate-this-publication-with-markdown-slides">Associate this publication with Markdown slides.&lt;/h1>
+&lt;h1 id="simply-enter-your-slide-decks-filename-without-extension">Simply enter your slide deck&amp;rsquo;s filename without extension.&lt;/h1>
+&lt;h1 id="eg-slides-example-references-contentslidesexampleindexmd">E.g. &lt;code>slides: &amp;quot;example&amp;quot;&lt;/code> references &lt;code>content/slides/example/index.md&lt;/code>.&lt;/h1>
+&lt;h1 id="otherwise-set-slides-">Otherwise, set &lt;code>slides: &amp;quot;&amp;quot;&lt;/code>.&lt;/h1>
+&lt;h1 id="slides-example">slides: example&lt;/h1>
+&lt;hr>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://arxiv.org/abs/2502.01341" target="_blank" rel="noopener">Paper&lt;/a>&lt;/p></description></item><item><title>A Market-based Approach for Climate Finance and Risk Assessment</title><link>https://ai.t-zhang.com/project/precap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/project/precap/</guid><description>&lt;p>Insufficient Social Cost of Carbon (SCC) estimation methods and short-term decision-making horizons have hindered the ability of carbon emitters to properly correct for the negative externalities of climate change, as well as the capacity of nations to balance economic and climate policy. To overcome these limitations, we introduce Retrospective Social Cost of Carbon Updating (ReSCCU), a novel mechanism that corrects for these limitations as empirically measured evidence is collected. To implement ReSCCU in the context of carbon taxation, we propose Retroactive Carbon Pricing (ReCaP), a market mechanism in which polluters offload the payment of ReSCCU adjustments to insurers. To alleviate systematic risks and minimize government involvement, we introduce the Private ReCaP (PReCaP) prediction market, which could see real-world implementation based on the engagement of a few high net-worth individuals or independent institutions.&lt;/p>
+&lt;p>Please check &lt;a href="https://arxiv.org/abs/2205.00666" target="_blank" rel="noopener">here&lt;/a> for our priliminary thoughts.&lt;/p></description></item><item><title>CLAP</title><link>https://ai.t-zhang.com/project/audioclip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/project/audioclip/</guid><description>&lt;p>Contrastive learning has shown remarkable success in the field of multimodal representation learning. In this paper, we propose a pipeline of contrastive language-audio pretraining to develop an audio representation by combining audio data with natural language descriptions. To accomplish this target, we first release LAION-Audio-630K, a large collection of 633,526 audio-text pairs from different data sources. Second, we construct a contrastive language-audio pretraining model by considering different audio encoders and text encoders. We incorporate the feature fusion mechanism and keyword-to-caption augmentation into the model design to further enable the model to process audio inputs of variable lengths and enhance the performance. Third, we perform comprehensive experiments to evaluate our model across three tasks: text-to-audio retrieval, zero-shot audio classification, and supervised audio classification. The results demonstrate that our model achieves superior performance in text-to-audio retrieval task. In audio classification tasks, the model achieves state-of-the-art performance in the zero-shot setting and is able to obtain performance comparable to models&amp;rsquo; results in the non-zero-shot setting. LAION-Audio-630K and the proposed model are both available to the public.&lt;/p></description></item><item><title>MARL for Renewable Integration in the Electric Power Grid</title><link>https://ai.t-zhang.com/project/egrid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/project/egrid/</guid><description>&lt;p>As part of the fight against climate change, the electric power system is transitioning from fuel-burning generators to renewable sources of power like wind and solar. To allow for the grid to rely heavily on renewables, important operational changes must be done. For example, novel approaches for frequency regulation, ie, for balancing in real-time demand and generation, are required to ensure the stability of a renewable electric system. Demand response programs in which loads adjust in part their power consumption for the grid’s benefit, can be used to provide frequency regulation. In this proposal, we present and motivate a collaborative multi-agent reinforcement learning approach to meet the algorithmic requirements for providing real-time power balancing with demand response.&lt;/p>
+&lt;p>Please check here for &lt;a href="https://www.climatechange.ai/papers/neurips2021/71" target="_blank" rel="noopener">the full proposal&lt;/a>.&lt;/p></description></item><item><title>Multi Agent Cooperation in Game Theory</title><link>https://ai.t-zhang.com/project/agentcooperation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/project/agentcooperation/</guid><description>&lt;p>Developed based on &lt;a href="https://arxiv.org/abs/1709.04326" target="_blank" rel="noopener">LOLA&lt;/a> and &lt;a href="https://arxiv.org/abs/2103.04931" target="_blank" rel="noopener">MCTS&lt;/a>, the goal is to find a mechanism for the so that the agents can converge to a cooperate-cooperate equilibrium in game such as the coin game or prisoner&amp;rsquo;s dilemma game. We aim to find a scalable solution.&lt;/p></description></item><item><title>RICE-N | AI for Global Climate Cooperation</title><link>https://ai.t-zhang.com/project/climatecoop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ai.t-zhang.com/project/climatecoop/</guid><description>&lt;p>RICE-N simulator wins the &lt;a href="https://www.events.netexplo.com/forum-innovation-2023/content/rice-n" target="_blank" rel="noopener">Netexplo Innovation Award in 2023&lt;/a>.
 We believe this &lt;a href="https://www.ai4climatecoop.org/" target="_blank" rel="noopener">competition&lt;/a> opens the way for beneficial contributions to several different areas in research and policy.&lt;/p>
 &lt;p>Researchers and engineers: Whether it be in Economics, Machine Learning, Agent-based Modelling, Game Theory, Political Science, Behavioral Science, Mathematics, Computer Science, Complex Systems or any other discipline you believe to be relevant, this competition identifies and creates many opportunities for innovation. For example, negotiation protocols between different regions are one of the keys to the encourage climate mitigation. One of the goal of this competition is to design a negotiation mechanism between different regions so that agents may not only maximize their own utility but also care more about the collective goal — carbon emission mitigation We envision diversity as a strength, not a weakness. Solving problems that affect each and every person calls for transversal thinking, multifaceted contributions and collaboration.&lt;/p>
 &lt;p>Policy writers and makers: Transmuting good research into tangible political results creates long lasting change, and properly communicating outcomes to governments is just as necessary as the research itself. We envision clear communication and actionable, targeted recommendations as a pillar of change and an important skill for anyone looking to make an impact.&lt;/p>
