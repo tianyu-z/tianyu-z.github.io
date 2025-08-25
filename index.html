@@ -342,6 +342,36 @@
                   target=_blank rel=noopener>Code</a>
                 <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/LAION-AI/audio-dataset
                   target=_blank rel=noopener>Dataset</a>
+                <h2>CLAP Models Downloads Summary</h2>
+                <p><strong>Downloads (last 30 days):</strong> <span id="downloads">Loading...</span></p>
+                <p><strong>Downloads (all time):</strong> <span id="downloadsAllTime">Loading...</span></p>
+              
+                <script>
+                  const urls = [
+                    "https://huggingface.co/api/models/laion/larger_clap_general?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/clap-htsat-fused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/larger_clap_music?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/larger_clap_music_and_speech?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/clap-htsat-unfused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime"
+                  ];
+              
+                  async function fetchData() {
+                    let totalDownloads = 0;
+                    let totalAllTime = 0;
+              
+                    for (const url of urls) {
+                      const res = await fetch(url);
+                      const data = await res.json();
+                      totalDownloads += data.downloads || 0;
+                      totalAllTime += data.downloadsAllTime || 0;
+                    }
+              
+                    document.getElementById("downloads").textContent = totalDownloads.toLocaleString();
+                    document.getElementById("downloadsAllTime").textContent = totalAllTime.toLocaleString();
+                  }
+              
+                  fetchData();
+                </script>
               </p>
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
