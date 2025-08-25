@@ -211,6 +211,65 @@
               <div>Quickly discover relevant content by <a href="publication/index.html">filtering publications</a>.
               </div>
             </div>
+<div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
+                aria-hidden=true></i>
+              <span class="article-metadata li-cite-author"><span>Yusong Wu</span><i
+                  class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Ke
+                  Chen</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
+                  title="Equal contribution"></i>, <span class=author-highlighted>Tianyu Zhang</span><i
+                  class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>,
+                <span>Yuchen Hui</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
+                  title="Equal contribution"></i>, <span>Taylor Berg-Kirkpatrick</span>, <span>Shlomo
+                  Dubnov</span></span>
+              (2023).
+              <a href="https://tyz.netlify.app/publication/clap/">Large-scale Contrastive Language-Audio Pretraining
+                with Feature Fusion and Keyword-to-Caption Augmentation (CLAP) </a>.
+              In <em>ICASSP</em>.<p><a class="btn btn-outline-primary btn-page-header btn-sm"
+                  href=https://arxiv.org/abs/2211.06687 target=_blank rel=noopener>PDF</a>
+                <a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+                  data-filename=/publication/clap/cite.bib>Cite</a>
+                <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/LAION-AI/CLAP
+                  target=_blank rel=noopener>Code</a>
+                <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/LAION-AI/audio-dataset
+                  target=_blank rel=noopener>Dataset</a>
+                <h2 style="font-size:16px;">CLAP Models Downloads Summary</h2>
+                <p style="font-size:14px;">
+                  <strong>Downloads (last 30 days):</strong> 
+                  <span id="downloads">Loading...</span>
+                </p>
+                <p style="font-size:14px;">
+                  <strong>Downloads (all time):</strong> 
+                  <span id="downloadsAllTime">Loading...</span>
+                </p>
+              
+                <script>
+                  const urls = [
+                    "https://huggingface.co/api/models/laion/larger_clap_general?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/clap-htsat-fused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/larger_clap_music?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/larger_clap_music_and_speech?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                    "https://huggingface.co/api/models/laion/clap-htsat-unfused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime"
+                  ];
+              
+                  async function fetchData() {
+                    let totalDownloads = 0;
+                    let totalAllTime = 0;
+              
+                    for (const url of urls) {
+                      const res = await fetch(url);
+                      const data = await res.json();
+                      totalDownloads += data.downloads || 0;
+                      totalAllTime += data.downloadsAllTime || 0;
+                    }
+              
+                    document.getElementById("downloads").textContent = totalDownloads.toLocaleString();
+                    document.getElementById("downloadsAllTime").textContent = totalAllTime.toLocaleString();
+                  }
+              
+                  fetchData();
+                </script>
+              </p>
+            </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
               <span class="article-metadata li-cite-author"><span class=author-highlighted>Tianyu Zhang</span><i
@@ -220,38 +279,11 @@
                   Chi</span>, <span>Jingrui Tian</span>, <span>Hailin He</span>, <span>Suyuchen Wang</span></span>
               (2025).
               <a href="publication/strict/index.html">STRICT: Stress Test of Rendering Images Containing Text</a>.
-              In <em>arXiv 2505.18985</em>.<p><a href="index.html#"
+              In <em>EMNLP 2025</em>.<p><a href="index.html#"
                   class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
                   data-filename=/publication/strict/cite.bib>Cite</a></p>
             </div>
-            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
-                aria-hidden=true></i>
-              <span class="article-metadata li-cite-author"><span>Juan Duque</span>, <span>Milad Aghajohari</span>,
-                <span>Timotheus Cooijmans</span>, <span>Razvan Ciuca</span>, <span class=author-highlighted>Tianyu
-                  Zhang</span>, <span>Gauthier Gidel</span>, <span>Aaron Courville</span></span>
-              (2025).
-              <a href="https://tyz.netlify.app/publication/aaa/">Advantage Alignment Algorithms</a>.
-              In <em>ICLR</em>.<p><a href="index.html#"
-                  class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-                  data-filename=/publication/aaa/cite.bib>Cite</a></p>
-            </div>
-            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
-                aria-hidden=true></i>
-              <span class="article-metadata li-cite-author"><span>Xingwei Qu</span>, <span>Yuelin Bai</span>,
-                <span>Yinghao Ma</span>, <span>Ziya Zhou</span>, <span>Ka Man Lo</span>, <span>Jiaheng Liu</span>,
-                <span>Ruibin Yuan</span>, <span>Lejun Min</span>, <span>Xueling Liu</span>, <span
-                  class=author-highlighted>Tianyu Zhang</span>, <span>Xeron Du</span>, <span>Shuyue Guo</span>,
-                <span>Yiming Liang</span>, <span>Yizhi Li</span>, <span>Shangda Wu</span>, <span>Junting Zhou</span>,
-                <span>Tianyu Zheng</span>, <span>Ziyang Ma</span>, <span>Fengze Han</span>, <span>Wei Xue</span>,
-                <span>Gus Xia</span>, <span>Emmanouil Benetos</span>, <span>Xiang Yue</span>, <span>Chenghua Lin</span>,
-                <span>Xu Tan</span>, <span>Wenhao Huang</span>, <span>Jie Fu</span>, <span>Ge Zhang</span></span>
-              (2025).
-              <a href="publication/mupt/index.html">MuPT: A Generative Symbolic Music Pretrained Transformer</a>.
-              In <em>ICLR 2025</em>.<p><a href="index.html#"
-                  class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-                  data-filename=/publication/mupt/cite.bib>Cite</a></p>
-            </div>
-            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
+<div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
               <span class="article-metadata li-cite-author"><span>Lu Li</span><i class="author-notes fas fa-info-circle"
                   data-toggle=tooltip title="Equal contribution"></i>, <span class=author-highlighted>Tianyu
@@ -312,6 +344,33 @@
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
+              <span class="article-metadata li-cite-author"><span>Juan Duque</span>, <span>Milad Aghajohari</span>,
+                <span>Timotheus Cooijmans</span>, <span>Razvan Ciuca</span>, <span class=author-highlighted>Tianyu
+                  Zhang</span>, <span>Gauthier Gidel</span>, <span>Aaron Courville</span></span>
+              (2025).
+              <a href="https://tyz.netlify.app/publication/aaa/">Advantage Alignment Algorithms</a>.
+              In <em>ICLR</em>.<p><a href="index.html#"
+                  class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+                  data-filename=/publication/aaa/cite.bib>Cite</a></p>
+            </div>
+            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
+                aria-hidden=true></i>
+              <span class="article-metadata li-cite-author"><span>Xingwei Qu</span>, <span>Yuelin Bai</span>,
+                <span>Yinghao Ma</span>, <span>Ziya Zhou</span>, <span>Ka Man Lo</span>, <span>Jiaheng Liu</span>,
+                <span>Ruibin Yuan</span>, <span>Lejun Min</span>, <span>Xueling Liu</span>, <span
+                  class=author-highlighted>Tianyu Zhang</span>, <span>Xeron Du</span>, <span>Shuyue Guo</span>,
+                <span>Yiming Liang</span>, <span>Yizhi Li</span>, <span>Shangda Wu</span>, <span>Junting Zhou</span>,
+                <span>Tianyu Zheng</span>, <span>Ziyang Ma</span>, <span>Fengze Han</span>, <span>Wei Xue</span>,
+                <span>Gus Xia</span>, <span>Emmanouil Benetos</span>, <span>Xiang Yue</span>, <span>Chenghua Lin</span>,
+                <span>Xu Tan</span>, <span>Wenhao Huang</span>, <span>Jie Fu</span>, <span>Ge Zhang</span></span>
+              (2025).
+              <a href="publication/mupt/index.html">MuPT: A Generative Symbolic Music Pretrained Transformer</a>.
+              In <em>ICLR 2025</em>.<p><a href="index.html#"
+                  class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+                  data-filename=/publication/mupt/cite.bib>Cite</a></p>
+            </div>
+            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
+                aria-hidden=true></i>
               <span class="article-metadata li-cite-author"><span>Marco Jiralerspong</span>, <span>Bilun Sun</span>,
                 <span>Danilo Vucetic</span>, <span class=author-highlighted>Tianyu Zhang</span>, <span>Gauthier
                   Gidel</span>, <span>Nikolay Malkin</span></span>
@@ -321,65 +380,6 @@
               In <em>International Conference on Learning Representations 2024</em>.<p><a href="index.html#"
                   class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
                   data-filename=/publication/expectedflow/cite.bib>Cite</a></p>
-            </div>
-            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
-                aria-hidden=true></i>
-              <span class="article-metadata li-cite-author"><span>Yusong Wu</span><i
-                  class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Ke
-                  Chen</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
-                  title="Equal contribution"></i>, <span class=author-highlighted>Tianyu Zhang</span><i
-                  class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>,
-                <span>Yuchen Hui</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
-                  title="Equal contribution"></i>, <span>Taylor Berg-Kirkpatrick</span>, <span>Shlomo
-                  Dubnov</span></span>
-              (2023).
-              <a href="https://tyz.netlify.app/publication/clap/">Large-scale Contrastive Language-Audio Pretraining
-                with Feature Fusion and Keyword-to-Caption Augmentation (CLAP) </a>.
-              In <em>ICASSP</em>.<p><a class="btn btn-outline-primary btn-page-header btn-sm"
-                  href=https://arxiv.org/abs/2211.06687 target=_blank rel=noopener>PDF</a>
-                <a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-                  data-filename=/publication/clap/cite.bib>Cite</a>
-                <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/LAION-AI/CLAP
-                  target=_blank rel=noopener>Code</a>
-                <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/LAION-AI/audio-dataset
-                  target=_blank rel=noopener>Dataset</a>
-                <h2 style="font-size:16px;">CLAP Models Downloads Summary</h2>
-                <p style="font-size:14px;">
-                  <strong>Downloads (last 30 days):</strong> 
-                  <span id="downloads">Loading...</span>
-                </p>
-                <p style="font-size:14px;">
-                  <strong>Downloads (all time):</strong> 
-                  <span id="downloadsAllTime">Loading...</span>
-                </p>
-              
-                <script>
-                  const urls = [
-                    "https://huggingface.co/api/models/laion/larger_clap_general?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/clap-htsat-fused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/larger_clap_music?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/larger_clap_music_and_speech?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/clap-htsat-unfused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime"
-                  ];
-              
-                  async function fetchData() {
-                    let totalDownloads = 0;
-                    let totalAllTime = 0;
-              
-                    for (const url of urls) {
-                      const res = await fetch(url);
-                      const data = await res.json();
-                      totalDownloads += data.downloads || 0;
-                      totalAllTime += data.downloadsAllTime || 0;
-                    }
-              
-                    document.getElementById("downloads").textContent = totalDownloads.toLocaleString();
-                    document.getElementById("downloadsAllTime").textContent = totalAllTime.toLocaleString();
-                  }
-              
-                  fetchData();
-                </script>
-              </p>
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
