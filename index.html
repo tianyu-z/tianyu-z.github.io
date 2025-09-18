@@ -160,6 +160,7 @@
                 AI for Climate Change, Algorithmic Game Theory, etc. 
                 Previously, he worked as a quantitative researcher in financial engineering. Please
                 feel free to contact him if you are interested in his work.</p>
+              <p><strong>His Representative Work:</strong> [🎵] CLAP has achieved <strong><span id="clapAllTime">Loading...</span></strong> total downloads and <strong><span id="clapMonthly">Loading...</span></strong> new downloads this month.</p>
               <p><i class="fas fa-download pr-1 fa-fw"></i> Download the <a
                   href="https://tyz.netlify.app/uploads/Academic_CV.pdf" target=_blank>CV</a>.</p>
             </div>
@@ -241,7 +242,6 @@
                   <strong>Downloads (all time):</strong> 
                   <span id="downloadsAllTime">Loading...</span>
                 </p>
-              
                 <script>
                   const urls = [
                     "https://huggingface.co/api/models/laion/larger_clap_general?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
@@ -250,22 +250,33 @@
                     "https://huggingface.co/api/models/laion/larger_clap_music_and_speech?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
                     "https://huggingface.co/api/models/laion/clap-htsat-unfused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime"
                   ];
-              
+                
                   async function fetchData() {
-                    let totalDownloads = 0;
-                    let totalAllTime = 0;
-              
+                    let totalDownloads = 0;     // last 30 days (Hugging Face "downloads")
+                    let totalAllTime = 0;       // all-time
+                
                     for (const url of urls) {
                       const res = await fetch(url);
                       const data = await res.json();
                       totalDownloads += data.downloads || 0;
                       totalAllTime += data.downloadsAllTime || 0;
                     }
-              
-                    document.getElementById("downloads").textContent = totalDownloads.toLocaleString();
-                    document.getElementById("downloadsAllTime").textContent = totalAllTime.toLocaleString();
+                
+                    // Existing counters in Publications section
+                    const d = document.getElementById("downloads");
+                    if (d) d.textContent = totalDownloads.toLocaleString();
+                
+                    const dAll = document.getElementById("downloadsAllTime");
+                    if (dAll) dAll.textContent = totalAllTime.toLocaleString();
+                
+                    // New counters in Biography sentence
+                    const bioMonthly = document.getElementById("clapMonthly");
+                    if (bioMonthly) bioMonthly.textContent = totalDownloads.toLocaleString();
+                
+                    const bioAll = document.getElementById("clapAllTime");
+                    if (bioAll) bioAll.textContent = totalAllTime.toLocaleString();
                   }
-              
+                
                   fetchData();
                 </script>
               </p>
