@@ -155,14 +155,18 @@
                   Yoshua Bengio</a> at <a href=https://mila.quebec/en/person/tianyu-zhang/ target=_blank
                   rel=noopener>Mila</a>. He leads the RICE-N project which wins <a
                   href=https://www.events.netexplo.com/forum-innovation-2023/content/rice-n target=_blank
-                  rel=noopener>Netexplo Innovation Award in 2023</a>. His research interests include Latent Reasoning, 
-                LLM/VLM Reasoning and Planning, Agent-based Model Simulator, Multi-agent Reinforcement Learning,  
-                AI for Climate Change, etc. 
+                  rel=noopener>Netexplo Innovation Award in 2023</a>. His research interests include Latent Reasoning,
+                LLM/VLM Reasoning and Planning, Agent-based Model Simulator, Multi-agent Reinforcement Learning,
+                AI for Climate Change, etc.
                 Previously, he worked as a quantitative researcher in financial engineering. Please
                 feel free to contact him if you are interested in his work.</p>
-              <p><strong>One of his work:</strong> [🎵] CLAP has achieved <strong><span id="clapAllTime">Loading...</span></strong> total downloads and <strong><span id="clapMonthly">Loading...</span></strong> new downloads this month.</p>
+              <p><strong>One of his work:</strong> [🎵] CLAP has achieved <strong><span
+                    id="clapAllTime">Loading...</span></strong> total downloads and <strong><span
+                    id="clapMonthly">Loading...</span></strong> new downloads this month.</p>
               <p><i class="fas fa-download pr-1 fa-fw"></i> Download the <a
                   href="https://tyz.netlify.app/uploads/Academic_CV.pdf" target=_blank>CV</a>.</p>
+              <p>Other notable representitive work: <a href="https://ouro-llm.github.io" target=_blank>Scaling Latent
+                  Reasoning via Looped Language Models (pretrained)</a>.</p>
             </div>
             <div class=row>
               <div class=col-md-7>
@@ -218,8 +222,9 @@
                   class="author-notes fas fa-info-circle" data-toggle=tooltip title="Core contributor"></i>,
                 <span>Zixuan Wang</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
                   title="Core contributor"></i>, <span>Kai Hua</span><i class="author-notes fas fa-info-circle"
-                  data-toggle=tooltip title="Core contributor"></i>, <span class=author-highlighted>Tianyu Zhang</span><i
-                  class="author-notes fas fa-info-circle" data-toggle=tooltip title="Core contributor"></i>,
+                  data-toggle=tooltip title="Core contributor"></i>, <span class=author-highlighted>Tianyu
+                  Zhang</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
+                  title="Core contributor"></i>,
                 <span>Ziniu Li</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip
                   title="Core contributor"></i>, <span>Haoran Que</span><i class="author-notes fas fa-info-circle"
                   data-toggle=tooltip title="Core contributor"></i>, <span>Boyi Wei</span><i
@@ -241,7 +246,8 @@
               In <em>Industry research project</em>.<p><a class="btn btn-outline-primary btn-page-header btn-sm"
                   href=https://arxiv.org/abs/2510.25741 target=_blank rel=noopener>PDF</a>
                 <a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-                  data-filename=/publication/scaling-latent-reasoning-via-looped-language-models/cite.bib>Cite</a></p>
+                  data-filename=/publication/scaling-latent-reasoning-via-looped-language-models/cite.bib>Cite</a>
+              </p>
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
@@ -264,52 +270,52 @@
                   target=_blank rel=noopener>Code</a>
                 <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/LAION-AI/audio-dataset
                   target=_blank rel=noopener>Dataset</a>
-                <h2 style="font-size:16px;">CLAP Models Downloads Summary</h2>
-                <p style="font-size:14px;">
-                  <strong>Downloads (last 30 days):</strong> 
-                  <span id="downloads">Loading...</span>
-                </p>
-                <p style="font-size:14px;">
-                  <strong>Downloads (all time):</strong> 
-                  <span id="downloadsAllTime">Loading...</span>
-                </p>
-                <script>
-                  const urls = [
-                    "https://huggingface.co/api/models/laion/larger_clap_general?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/clap-htsat-fused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/larger_clap_music?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/larger_clap_music_and_speech?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
-                    "https://huggingface.co/api/models/laion/clap-htsat-unfused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime"
-                  ];
-                
-                  async function fetchData() {
-                    let totalDownloads = 0;     // last 30 days (Hugging Face "downloads")
-                    let totalAllTime = 0;       // all-time
-                
-                    for (const url of urls) {
-                      const res = await fetch(url);
-                      const data = await res.json();
-                      totalDownloads += data.downloads || 0;
-                      totalAllTime += data.downloadsAllTime || 0;
-                    }
-                
-                    // Existing counters in Publications section
-                    const d = document.getElementById("downloads");
-                    if (d) d.textContent = totalDownloads.toLocaleString();
-                
-                    const dAll = document.getElementById("downloadsAllTime");
-                    if (dAll) dAll.textContent = totalAllTime.toLocaleString();
-                
-                    // New counters in Biography sentence
-                    const bioMonthly = document.getElementById("clapMonthly");
-                    if (bioMonthly) bioMonthly.textContent = totalDownloads.toLocaleString();
-                
-                    const bioAll = document.getElementById("clapAllTime");
-                    if (bioAll) bioAll.textContent = totalAllTime.toLocaleString();
+              <h2 style="font-size:16px;">CLAP Models Downloads Summary</h2>
+              <p style="font-size:14px;">
+                <strong>Downloads (last 30 days):</strong>
+                <span id="downloads">Loading...</span>
+              </p>
+              <p style="font-size:14px;">
+                <strong>Downloads (all time):</strong>
+                <span id="downloadsAllTime">Loading...</span>
+              </p>
+              <script>
+                const urls = [
+                  "https://huggingface.co/api/models/laion/larger_clap_general?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                  "https://huggingface.co/api/models/laion/clap-htsat-fused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                  "https://huggingface.co/api/models/laion/larger_clap_music?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                  "https://huggingface.co/api/models/laion/larger_clap_music_and_speech?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime",
+                  "https://huggingface.co/api/models/laion/clap-htsat-unfused?expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime"
+                ];
+
+                async function fetchData() {
+                  let totalDownloads = 0;     // last 30 days (Hugging Face "downloads")
+                  let totalAllTime = 0;       // all-time
+
+                  for (const url of urls) {
+                    const res = await fetch(url);
+                    const data = await res.json();
+                    totalDownloads += data.downloads || 0;
+                    totalAllTime += data.downloadsAllTime || 0;
                   }
-                
-                  fetchData();
-                </script>
+
+                  // Existing counters in Publications section
+                  const d = document.getElementById("downloads");
+                  if (d) d.textContent = totalDownloads.toLocaleString();
+
+                  const dAll = document.getElementById("downloadsAllTime");
+                  if (dAll) dAll.textContent = totalAllTime.toLocaleString();
+
+                  // New counters in Biography sentence
+                  const bioMonthly = document.getElementById("clapMonthly");
+                  if (bioMonthly) bioMonthly.textContent = totalDownloads.toLocaleString();
+
+                  const bioAll = document.getElementById("clapAllTime");
+                  if (bioAll) bioAll.textContent = totalAllTime.toLocaleString();
+                }
+
+                fetchData();
+              </script>
               </p>
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
@@ -324,7 +330,8 @@
               In <em>Preprint</em>.<p><a class="btn btn-outline-primary btn-page-header btn-sm"
                   href=https://arxiv.org/abs/2510.12974 target=_blank rel=noopener>PDF</a>
                 <a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-                  data-filename=/publication/scope/cite.bib>Cite</a></p>
+                  data-filename=/publication/scope/cite.bib>Cite</a>
+              </p>
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
@@ -339,7 +346,7 @@
                   class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
                   data-filename=/publication/strict/cite.bib>Cite</a></p>
             </div>
-<div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
+            <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
               <span class="article-metadata li-cite-author"><span>Lu Li</span><i class="author-notes fas fa-info-circle"
                   data-toggle=tooltip title="Equal contribution"></i>, <span class=author-highlighted>Tianyu
@@ -399,7 +406,8 @@
               In <em>arXiv preprint arXiv 2510.03230</em>.<p><a class="btn btn-outline-primary btn-page-header btn-sm"
                   href=https://arxiv.org/abs/2510.03230 target=_blank rel=noopener>PDF</a>
                 <a href="index.html#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-                  data-filename=/publication/gui-grounding-position-to-coordinate/cite.bib>Cite</a></p>
+                  data-filename=/publication/gui-grounding-position-to-coordinate/cite.bib>Cite</a>
+              </p>
             </div>
             <div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon"
                 aria-hidden=true></i>
